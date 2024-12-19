@@ -15,7 +15,7 @@
       href="../assets/images/favicon.ico"
       type="image/x-icon"
     />
-    <title>Transaction Settled</title>
+    <title>Transaction Pending</title>
   </head>
   <body>
     <section class="container max-w-[768px]">
@@ -36,13 +36,16 @@
       <!-- ./ App Bar -->
 
       <div class="flex min-h-dvh flex-col gap-4 bg-green-50 pb-[80px]">
-        <div class="relative h-[260px] bg-brands-light-green"></div>
+        <div class="relative h-[260px] bg-yellow-400"></div>
         <div class="absolute mt-[92px] flex w-full flex-col gap-10 p-4">
           <!-- Tittle -->
           <div class="flex max-w-[768px] flex-col">
-            <h1 class="text-center text-lg font-semibold text-white">
-              Transaksi Berhasil Diproses
+            <h1 class="text-center text-lg font-semibold">
+              Transaksi Dibatalkan
             </h1>
+            <p class="text-center text-xs font-semibold">
+              Dana sudah dikembalikan ke saldo dana
+            </p>
           </div>
 
           <!-- Card Transaction -->
@@ -87,9 +90,9 @@
             class="inline-flex max-w-[736px] items-center justify-center gap-2 rounded-xl border-2 border-brands-light-green bg-transparent p-2.5 text-sm font-semibold uppercase text-brands-light-green hover:bg-brands-light-green hover:text-white focus:border-transparent focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:border-gray-200 disabled:bg-transparent disabled:text-gray-400"
           >
             <span
-              class="i-material-symbols-receipt-rounded text-icon-md"
+              class="i-material-symbols-shield-question-rounded text-icon-md"
             ></span>
-            <span>Lihat Transaksi Lainnya</span>
+            <span>Butuh Bantuan?</span>
           </button>
         </div>
       </div>
