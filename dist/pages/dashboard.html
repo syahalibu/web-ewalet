@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Rose:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <section class="container max-w-[768px]">
+      <div
+        class="flex min-h-dvh flex-col gap-4 bg-green-50 p-4 max-[300px]:mb-16"
+      >
+        <div class="flex w-full flex-col">
+          <!-- Avatar + Name -->
+          <div class="mb-4 flex">
+            <a
+              href="#"
+              class="flex items-center gap-2 hover:opacity-70 focus:outline-none focus:ring-2 focus:ring-green-400"
+            >
+              <img
+                src="https://avatar.iran.liara.run/public/5"
+                alt="avatar"
+                class="size-8"
+              />
+              <span class="text-lg font-semibold text-gray-900"
+                >Cora Kassulke</span
+              ></a
+            >
+          </div>
+
+          <!-- Card Balance + Action -->
+          <!-- Card Balance -->
+          <div class="mb-8 flex flex-col">
+            <div
+              class="flex h-[165px] flex-col justify-between rounded-2xl bg-gradient-to-b from-brands-light-green to-emerald-400 p-5 text-white"
+            >
+              <h1 class="font-brand text-2xl font-bold">Kusaku</h1>
+              <h2 class="flex items-center gap-2 text-2xl font-medium">
+                <span>Rp.90.0000.0000,00</span>
+                <button
+                  type="button"
+                  class="i-material-symbols-visibility text-icon-lg"
+                ></button>
+              </h2>
+            </div>
+
+            <!-- Action -->
+            <div class="mt-2 flex gap-3">
+              <button
+                type="button"
+                class="inline-flex w-full items-center justify-center gap-2 rounded-xl border-2 border-brands-light-green bg-transparent p-2.5 text-xs font-semibold uppercase text-brands-light-green hover:bg-brands-light-green hover:text-white focus:border-transparent focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:border-gray-200 disabled:bg-transparent disabled:text-gray-400"
+              >
+                <span
+                  class="i-material-symbols-download-rounded text-icon-sm"
+                ></span>
+                <span>TOP UP</span>
+              </button>
+
+              <button
+                type="button"
+                class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brands-light-green p-2.5 text-xs font-semibold uppercase text-white hover:bg-brands-dark-green focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400"
+              >
+                <span
+                  class="i-material-symbols-upload-rounded text-icon-sm"
+                ></span>
+                <span>TRANSFER</span>
+              </button>
+            </div>
+          </div>
+          <!-- ./ Card Balance + Action -->
+
+          <!-- Card List Item -->
+          <section>
+            <div class="rounded-[20px] bg-white p-2.5 shadow-md">
+              <!-- Card Header -->
+              <div class="mb-2 flex justify-between p-2.5">
+                <p class="font-semibold text-gray-900">Riwayat Trasaksi</p>
+                <a
+                  href="#"
+                  class="text-xs font-semibold text-brands-light-green hover:text-brands-light-green/70 focus:right-2 focus:outline-none focus:ring-green-400"
+                  >Lihat Lainnya</a
+                >
+              </div>
+
+              <!-- Items -->
+              <a
+                href=""
+                class="focus-ring-2 flex justify-between rounded-2xl p-3 hover:bg-emerald-50 focus:outline-none focus:ring-green-400"
+              >
+                <!-- Left -->
+                <span class="flex items-center gap-5">
+                  <span
+                    class="i-material-symbols-download-rounded flex-shrink-0 text-icon-lg text-brands-light-green"
+                  ></span>
+                  <span class="flex flex-col">
+                    <span
+                      class="line-clamp-2 text-sm font-semibold text-gray-900"
+                      >Cameron Kling</span
+                    >
+                    <span class="line-clamp-1 text-xs text-gray-500"
+                      >20 Dec 2024
+                    </span>
+                  </span>
+                </span>
+
+                <!-- Right -->
+                <span class="flex flex-shrink-0 items-center gap-2">
+                  <span class="text-xs font-medium text-red-500"
+                    >Rp. 50.000,00</span
+                  >
+                  <span
+                    class="i-material-symbols-chevron-right-rounded text-icon-md text-gray-900"
+                  ></span>
+                </span>
+              </a>
+              <div class="my-2.5 flex gap-4 whitespace-nowrap px-5 last:hidden">
+                <div class="flex-grow-1 h-[1px] w-full bg-gray-300"></div>
+              </div>
+              <!-- ./ Items -->
+              <!-- Items -->
+              <a
+                href=""
+                class="focus-ring-2 flex justify-between rounded-2xl p-3 hover:bg-emerald-50 focus:outline-none focus:ring-green-400"
+              >
+                <!-- Left -->
+                <span class="flex items-center gap-5">
+                  <span
+                    class="i-material-symbols-download-rounded flex-shrink-0 text-icon-lg text-brands-light-green"
+                  ></span>
+                  <span class="flex flex-col">
+                    <span
+                      class="line-clamp-2 text-sm font-semibold text-gray-900"
+                      >Louis Nikolaus</span
+                    >
+                    <span class="line-clamp-1 text-xs text-gray-500"
+                      >19 Dec 2024
+                    </span>
+                  </span>
+                </span>
+
+                <!-- Right -->
+                <span class="flex flex-shrink-0 items-center gap-2">
+                  <span class="text-xs font-medium text-red-500"
+                    >Rp. 50.000,00</span
+                  >
+                  <span
+                    class="i-material-symbols-chevron-right-rounded text-icon-md text-gray-900"
+                  ></span>
+                </span>
+              </a>
+              <div class="my-2.5 flex gap-4 whitespace-nowrap px-5 last:hidden">
+                <div class="flex-grow-1 h-[1px] w-full bg-gray-300"></div>
+              </div>
+              <!-- ./ Items -->
+              <!-- Items -->
+              <a
+                href=""
+                class="focus-ring-2 flex justify-between rounded-2xl p-3 hover:bg-emerald-50 focus:outline-none focus:ring-green-400"
+              >
+                <!-- Left -->
+                <span class="flex items-center gap-5">
+                  <span
+                    class="i-material-symbols-download-rounded flex-shrink-0 text-icon-lg text-brands-light-green"
+                  ></span>
+                  <span class="flex flex-col">
+                    <span
+                      class="line-clamp-2 text-sm font-semibold text-gray-900"
+                      >Darren Willms</span
+                    >
+                    <span class="line-clamp-1 text-xs text-gray-500"
+                      >19 Dec 2024
+                    </span>
+                  </span>
+                </span>
+
+                <!-- Right -->
+                <span class="flex flex-shrink-0 items-center gap-2">
+                  <span class="text-xs font-medium text-red-500"
+                    >Rp. 50.000,00</span
+                  >
+                  <span
+                    class="i-material-symbols-chevron-right-rounded text-icon-md text-gray-900"
+                  ></span>
+                </span>
+              </a>
+              <div class="my-2.5 flex gap-4 whitespace-nowrap px-5 last:hidden">
+                <div class="flex-grow-1 h-[1px] w-full bg-gray-300"></div>
+              </div>
+              <!-- ./ Items -->
+            </div>
+          </section>
+          <!-- ./ Card List Item -->
+        </div>
+      </div>
+
+      <!-- Nav Bar -->
+      <section
+        class="fixed bottom-0 left-0 flex w-full justify-evenly bg-white"
+      >
+        <a
+          href="#"
+          class="group flex w-full flex-col items-center p-3 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-400"
+        >
+          <span
+            class="i-material-symbols-home-outline-rounded inline text-icon-md group-hover:hidden"
+          ></span>
+          <span
+            class="i-material-symbols-home-rounded hidden text-icon-md group-hover:inline"
+          ></span>
+          <span class="text-xs font-semibold">Beranda</span>
+        </a>
+
+        <a
+          href="#"
+          class="group flex w-full flex-col items-center p-3 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-400"
+        >
+          <span
+            class="i-material-symbols-receipt-outline-rounded inline text-icon-md group-hover:hidden"
+          ></span>
+          <span
+            class="i-material-symbols-receipt-rounded hidden text-icon-md group-hover:inline"
+          ></span>
+          <span class="text-xs font-semibold">Riwayat</span>
+        </a>
+
+        <a
+          href="#"
+          class="group flex w-full flex-col items-center p-3 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-400"
+        >
+          <span
+            class="i-material-symbols-person-outline-rounded inline text-icon-md group-hover:hidden"
+          ></span>
+          <span
+            class="i-material-symbols-person-rounded hidden text-icon-md group-hover:inline"
+          ></span>
+          <span class="text-xs font-semibold">Akun</span>
+        </a>
+      </section>
+      <!-- ./ Nav Bar  -->
+    </section>
+  </body>
+</html>
